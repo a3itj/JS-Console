@@ -96,7 +96,7 @@ body {
     margin-bottom: 1px;
 }
 
-#cmdInput {
+#cmdInput , #cmdInputHint{
     background: transparent;
     border: 0;
     color: #FFF;
@@ -112,7 +112,13 @@ body {
     line-height: 16px;
     font-size: 14px;
 }
-
+#cmdInputHint {
+    position: absolute;
+      top: 0;
+      left: 0;
+      color: #ccd6dd;
+      opacity: 1;
+}
 #output {
     display: block;
     white-space: pre;
