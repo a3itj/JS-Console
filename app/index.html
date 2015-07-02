@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JS Console</title>
+    <link rel="stylesheet" type="text/css" media="all" href="css/style.min.css" />
+</head>
+
+<body>
+    <div id="terminal">
+        <div class="control-bar">
+            Js Console
+        </div>
+        <div id="cmdContainer" class="tab-content">
+            <div id="help">
+                <div class="help-row">:clear - to clear the history</div>
+                <div class="help-row">:history - list current session history</div>
+                <div class="help-row">press tab to autocomplete</div>
+            </div>
+            <pre id="output"></pre>
+            <div id="cmdInputBlock" class="input">
+                <div class="command">
+                    <textarea rows="1" tabindex="1" id="cmdInput" name="cmdInput" placeholder=""></textarea>
+                    <!-- <input type="text" id="cmdInput" name="cmdInput" autocomplete="off" /> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/underscore.min.js" type="text/javascript"></script>
+    <script src="js/app.js" type="text/javascript"></script>
+</body>
+
+</html>
